@@ -1,0 +1,5 @@
+#Ignore fichiers .ini
+*.ini
+
+#Ignore dossier Vscode
+.vscode
