@@ -1,6 +1,14 @@
 #Import des librairies
 import discord
+import configparser
+
+#Initialisation de ConfigParser
+config = configparser.ConfigParser()
+config.read("config.ini")
+
+#Key configparser
+tokenBot = config['DEFAULT']['TOKENBOT']
 
 #Connexion du bot
 client = discord.Client()
-client.run("OTQ0MTQ2Mjk5NDYzMjgyNzM5.Yg9Www._sUPabYSY9KPSqUNIi987dY3ayQ")
+client.run(tokenBot)

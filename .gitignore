@@ -3,3 +3,6 @@
 
 #Ignore dossier Vscode
 .vscode
+
+#Ignore dossier Git
+.git
